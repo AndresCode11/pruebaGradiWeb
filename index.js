@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
+require('dotenv').config({path: '.env'})
+
 
 const API_ENDPOINT= 'devtestrecruitte'
 const API_KEY= 'd156c699edcc98186dae8e6f9562d838'
